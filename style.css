@@ -97,7 +97,7 @@ nav {
   z-index: 5;
 }
 
-.container h2 {
+.container h2, .container h3 {
   left: 0%;
   right: 10.29%;
   top: calc(50% - 128px / 2 - 94px);
