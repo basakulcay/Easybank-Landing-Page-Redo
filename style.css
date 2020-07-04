@@ -2,7 +2,11 @@ html {
   width: 100%;
   overflow-x: hidden;
   font-family: 'Public Sans', sans-serif;
-  background: #fafafa;
+  background-color: hsl(0, 0%, 98%);
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
 }
 
 .info {
@@ -26,18 +30,17 @@ nav {
   height: 80px;
 }
 
-.card {
+.ad {
   position: absolute;
   width: 447px;
   height: 316px;
   left: 165px;
   top: 250px;
-  background-color: rgba(245, 245, 245, 0.4);
 
   background: #fafafa;
 }
 
-.card h1 {
+.ad h1 {
   position: absolute;
   height: 128px;
   left: 0%;
@@ -55,7 +58,7 @@ nav {
   background: #fafafa;
 }
 
-.card p {
+.ad p {
   position: absolute;
   height: 84px;
   left: 0%;
@@ -74,6 +77,45 @@ nav {
   background: #fafafa;
 }
 
+.container {
+  height: 200wh;
+}
+.container h1 {
+  height: 128px;
+  left: 0%;
+  right: 10.29%;
+  top: calc(50% - 128px / 2 - 94px);
+  font-family: 'Public Sans', sans-serif;
+  font-size: 48px;
+  padding-top: 40px;
+  line-height: 64px;
+  /* or 114% */
+  font-weight: 300;
+  letter-spacing: -1px;
+  color: #2d314d;
+  opacity: 1;
+  z-index: 5;
+}
+
+.container h2 {
+  left: 0%;
+  right: 10.29%;
+  top: calc(50% - 128px / 2 - 94px);
+  font-family: 'Public Sans', sans-serif;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  /* or 114% */
+  font-weight: 300;
+
+  color: #2d314d;
+  opacity: 1;
+  z-index: 5;
+}
+
+.container p {
+  color: hsl(233, 8%, 62%);
+}
 .phones {
   position: absolute;
   width: 732px;
@@ -103,6 +145,11 @@ nav {
   top: 30px;
 }
 
+.second-page {
+  margin-top: 840px;
+  background-color: hsl(220, 16%, 96%);
+}
+
 /*Mobile*/
 @media only screen and (max-width: 850px) {
   .phones {
@@ -119,15 +166,15 @@ nav {
     z-index: 0;
   }
 
-  .card {
+  .ad {
     position: absolute;
-    width: 327px;
+    width: 307px;
     height: 261px;
-    left: 24px;
+    left: 15px;
     top: 386px;
   }
 
-  .card h1 {
+  .ad h1 {
     position: absolute;
     height: 94px;
     left: 0%;
@@ -140,10 +187,10 @@ nav {
     text-align: center;
     letter-spacing: -0.714286px;
 
-    color: #2d314d;
+    color: #9597a5;
   }
 
-  .card p {
+  .ad p {
     position: absolute;
     height: 75px;
     left: 0%;
@@ -166,7 +213,7 @@ nav {
   }
 
   .navbar-toggler {
-    margin-left: 280px;
+    margin-left: 230px;
   }
 }
 
@@ -174,7 +221,6 @@ nav {
 @media (min-width: 601px) and (max-width: 1367px) {
   .phones {
     position: absolute;
-
     left: 550px;
     top: -42px;
   }
