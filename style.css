@@ -1,0 +1,188 @@
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Public Sans', sans-serif;
+  background: #fafafa;
+}
+
+.info {
+  background-color: rgb(15, 27, 61);
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  font-size: 14px;
+  position: absolute;
+  width: 163px;
+  height: 44px;
+  left: 1112px;
+  top: 18px;
+}
+
+nav {
+  z-index: 10;
+  height: 80px;
+}
+
+.card {
+  position: absolute;
+  width: 447px;
+  height: 316px;
+  left: 165px;
+  top: 250px;
+  background-color: rgba(245, 245, 245, 0.4);
+
+  background: #fafafa;
+}
+
+.card h1 {
+  position: absolute;
+  height: 128px;
+  left: 0%;
+  right: 10.29%;
+  top: calc(50% - 128px / 2 - 94px);
+  font-family: 'Public Sans', sans-serif;
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+  font-weight: 300;
+  letter-spacing: -1px;
+  color: #2d314d;
+  opacity: 1;
+  z-index: 5;
+  background: #fafafa;
+}
+
+.card p {
+  position: absolute;
+  height: 84px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 84px / 2 + 36px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: -0.28125px;
+
+  color: #9597a5;
+  font-weight: 100;
+  background: #fafafa;
+}
+
+.phones {
+  position: absolute;
+  width: 732px;
+  height: 901px;
+  left: 820px;
+  top: -42px;
+  z-index: 2;
+}
+
+.intro {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 600px;
+  z-index: 1;
+}
+
+.nav-item {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  position: absolute;
+  width: 139px;
+  height: 20px;
+  left: 165px;
+  top: 30px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 850px) {
+  .phones {
+    position: absolute;
+    width: 327px;
+    height: 402px;
+    left: 20px;
+  }
+
+  .intro {
+    position: absolute;
+    right: -800px;
+    top: -180px;
+    z-index: 0;
+  }
+
+  .card {
+    position: absolute;
+    width: 327px;
+    height: 261px;
+    left: 24px;
+    top: 386px;
+  }
+
+  .card h1 {
+    position: absolute;
+    height: 94px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 94px / 2 - 83.5px);
+
+    font-family: PublicSans;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.714286px;
+
+    color: #2d314d;
+  }
+
+  .card p {
+    position: absolute;
+    height: 75px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 75px / 2 + 17px);
+
+    font-family: PublicSans;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+    letter-spacing: -0.234375px;
+
+    color: #9597a5;
+  }
+
+  .navbar-brand {
+    left: 20px;
+  }
+
+  .navbar-toggler {
+    margin-left: 280px;
+  }
+}
+
+/*Ipad*/
+@media (min-width: 601px) and (max-width: 1367px) {
+  .phones {
+    position: absolute;
+
+    left: 550px;
+    top: -42px;
+  }
+
+  .intro {
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    z-index: 0;
+  }
+}
