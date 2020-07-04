@@ -86,7 +86,7 @@ nav {
   right: 10.29%;
   top: calc(50% - 128px / 2 - 94px);
   font-family: 'Public Sans', sans-serif;
-  font-size: 48px;
+  font-size: 40px;
   padding-top: 40px;
   line-height: 64px;
   /* or 114% */
@@ -97,7 +97,8 @@ nav {
   z-index: 5;
 }
 
-.container h2, .container h3 {
+.container h2,
+.container h3 {
   left: 0%;
   right: 10.29%;
   top: calc(50% - 128px / 2 - 94px);
@@ -148,6 +149,70 @@ nav {
 .second-page {
   margin-top: 840px;
   background-color: hsl(220, 16%, 96%);
+}
+
+.third-page h3 {
+  font-size: 14px;
+}
+
+.third-page p {
+  font-size: 12px;
+}
+
+.third-page .container {
+  margin-bottom: 40px;
+}
+
+/*
+.about {
+  height: 180px;
+  width: 100%;
+  background-color: hsl(233, 26%, 24%);
+  font-weight: 300;
+}
+
+.about-list {
+  padding-top: 25px;
+  display: flex;
+}
+.about ul {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 2rem;
+  color: white;
+  padding-right: 95px;
+}
+
+.totes {
+  padding-left: 60px;
+  float: left;
+  margin-top: 40px;
+}
+*/
+
+.icons {
+  margin: 30px 20px;
+}
+.icons img {
+  padding: 5px;
+}
+
+.about .request-bar {
+  float: right;
+  margin-top: -95px;
+}
+
+.about p {
+  float: right;
+  margin-top: -25px;
+  margin-right: 110px;
+  color: white;
+  font-size: 12px;
+}
+
+.about p a {
+  text-decoration: none;
+  color: white;
 }
 
 /*Mobile*/
