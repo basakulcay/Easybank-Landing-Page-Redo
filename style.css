@@ -23,6 +23,7 @@ body {
   height: 44px;
   left: 1112px;
   top: 18px;
+  
 }
 
 nav {
@@ -56,6 +57,14 @@ nav {
   opacity: 1;
   z-index: 5;
   background: #fafafa;
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-left: 165px;
+  background-color: hsl(233, 26%, 24%);
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .ad p {
@@ -117,6 +126,7 @@ nav {
 .container p {
   color: hsl(233, 8%, 62%);
 }
+
 .phones {
   position: absolute;
   width: 732px;
@@ -191,7 +201,7 @@ nav {
 */
 
 .icons {
-  margin: 30px 20px;
+  margin-bottom: 20px;
 }
 .icons img {
   padding: 5px;
