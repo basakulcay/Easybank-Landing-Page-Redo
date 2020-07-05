@@ -185,33 +185,6 @@ nav {
   margin-bottom: 40px;
 }
 
-/*
-.about {
-  height: 180px;
-  width: 100%;
-  background-color: hsl(233, 26%, 24%);
-  font-weight: 300;
-}
-
-.about-list {
-  padding-top: 25px;
-  display: flex;
-}
-.about ul {
-  list-style-type: none;
-  font-size: 14px;
-  line-height: 2rem;
-  color: white;
-  padding-right: 95px;
-}
-
-.totes {
-  padding-left: 60px;
-  float: left;
-  margin-top: 40px;
-}
-*/
-
 .icons {
   margin-bottom: 20px;
 }
