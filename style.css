@@ -7,10 +7,10 @@ html {
 
 body {
   background-color: hsl(0, 0%, 98%);
+ font-size: 18px;
 }
 
 .info {
-  background-color: rgb(15, 27, 61);
   color: white;
   background-image: linear-gradient(
     to right,
@@ -23,40 +23,35 @@ body {
   height: 44px;
   left: 1112px;
   top: 18px;
+}
+
+.info-2 {
+  font-size: 14px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  width: 163px;
+  height: 44px;
   
 }
 
+ .info-3 {
+  font-size: 14px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  width: 163px;
+  height: 44px;
+}
 nav {
   z-index: 10;
   height: 80px;
-}
-
-.ad {
-  position: absolute;
-  width: 447px;
-  height: 316px;
-  left: 165px;
-  top: 250px;
-
-  background: #fafafa;
-}
-
-.ad h1 {
-  position: absolute;
-  height: 128px;
-  left: 0%;
-  right: 10.29%;
-  top: calc(50% - 128px / 2 - 94px);
-  font-family: 'Public Sans', sans-serif;
-  font-size: 56px;
-  line-height: 64px;
-  /* or 114% */
-  font-weight: 300;
-  letter-spacing: -1px;
-  color: #2d314d;
-  opacity: 1;
-  z-index: 5;
-  background: #fafafa;
 }
 
 .container-fluid {
@@ -67,23 +62,25 @@ nav {
   font-weight: 300;
 }
 
-.ad p {
-  position: absolute;
+.hero .container {
+  margin-top: 150px;
+}
+
+.hero .container h1 {
+  font-size: 50px;
+}
+
+.hero p {
   height: 84px;
   left: 0%;
   right: 0%;
-  top: calc(50% - 84px / 2 + 36px);
-
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 36px;
   /* or 156% */
-
   letter-spacing: -0.28125px;
-
   color: #9597a5;
   font-weight: 100;
-  background: #fafafa;
 }
 
 .container {
@@ -96,14 +93,23 @@ nav {
   top: calc(50% - 128px / 2 - 94px);
   font-family: 'Public Sans', sans-serif;
   font-size: 40px;
-  padding-top: 40px;
+  padding-top: 80px;
   line-height: 64px;
   /* or 114% */
-  font-weight: 300;
-  letter-spacing: -1px;
-  color: #2d314d;
-  opacity: 1;
-  z-index: 5;
+  font-weight: lighter;
+  letter-spacing: .1px;
+  color:rgb(82, 79, 79);
+  margin-bottom: 25px;
+  
+}
+
+.container p{
+  margin-bottom: 70px;
+}
+
+.second-page .container p {
+  padding-top: 32px;
+  font-size: 14px;
 }
 
 .container h2,
@@ -138,8 +144,8 @@ nav {
 
 .intro {
   position: absolute;
-  margin-top: -250px;
-  margin-left: 600px;
+  margin-top: -430px;
+  margin-left: 670px;
   z-index: 1;
 }
 
@@ -157,16 +163,22 @@ nav {
 }
 
 .second-page {
-  margin-top: 840px;
+  margin-top: 170px;
   background-color: hsl(220, 16%, 96%);
 }
 
+
+.third-page h1 {
+  margin-bottom: 50px;
+}
 .third-page h3 {
   font-size: 14px;
+
 }
 
 .third-page p {
   font-size: 12px;
+ 
 }
 
 .third-page .container {
