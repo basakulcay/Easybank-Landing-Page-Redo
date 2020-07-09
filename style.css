@@ -24,15 +24,12 @@ body {
   left: 1112px;
   top: 18px;
 }
-.phones::before {
-  background-image: url('./images/image-mockups.png'); /* with class ModalCarrot ??*/
+.intro_intro::before {
+  content: '';
+  background-image: url('./images/bg-intro-desktop.svg');
   background-size: no-repeat;
-  width: 400px;
-  height: 400px;
-  position: relative;
-  margin-left: 450px;
-  margin-top: -440px;
-  z-index: 100;
+  position: absolute;
+  z-index: 0;
 }
 
 .info-2 {
@@ -154,12 +151,12 @@ nav {
   z-index: 2;
 }
 
-.intro {
+/*.intro {
   position: absolute;
   margin-top: -430px;
   margin-left: 670px;
   z-index: 1;
-}
+}*/
 
 .nav-item {
   padding-left: 30px;
