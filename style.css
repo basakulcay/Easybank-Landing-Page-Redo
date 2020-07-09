@@ -216,11 +216,14 @@ nav {
 
 /*Mobile*/
 @media only screen and (max-width: 850px) {
+  .body {
+    overflow: hidden;
+  }
   .phones {
     position: absolute;
     width: 327px;
     height: 402px;
-    left: 20px;
+    left: 10px;
   }
   .hero .container h1 {
     font-size: 38px;
@@ -290,6 +293,19 @@ nav {
     text-align: center;
     padding: 0;
     margin: 0;
+  }
+  .third-page h1 {
+    line-height: 1em;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .third-page .container {
+    width: 250px;
+    margin-left: 40px;
+    margin-right: auto;
+  }
+  .info-2 {
+    display: hidden;
   }
 }
 
