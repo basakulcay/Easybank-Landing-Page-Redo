@@ -37,7 +37,7 @@ body {
   height: 44px;
 }
 
-.first-page{
+.first-page {
   overflow: hidden;
 }
 
@@ -182,14 +182,12 @@ nav {
   width: 80%;
 }
 
-.third-page .container.row{
+.third-page .container.row {
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
-
 }
-
 
 .icons {
   margin-bottom: 20px;
@@ -261,15 +259,38 @@ nav {
     text-align: center;
   }
   .second-page .container p {
-    margin-top: 40px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  #title_2 {
+    padding-top: 50px;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+  .container h2 {
     text-align: center;
   }
 
-  .container-fluid{
-    padding:0;
+  .second-page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container-fluid.col-2 {
+    padding-left: 30px;
   }
 
-  .container-fluid.col-2{padding-left: 30px;}
+  .third-page h3,
+  .third-page p {
+    width: 90%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 /*Ipad*/
