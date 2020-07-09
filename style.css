@@ -24,6 +24,16 @@ body {
   left: 1112px;
   top: 18px;
 }
+.phones::before {
+  background-image: url('./images/image-mockups.png'); /* with class ModalCarrot ??*/
+  background-size: no-repeat;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-left: 450px;
+  margin-top: -440px;
+  z-index: 100;
+}
 
 .info-2 {
   font-size: 14px;
