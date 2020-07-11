@@ -30,6 +30,11 @@ body {
   background-size: no-repeat;
   position: absolute;
   z-index: 0;
+  height: 900px;
+  width: 700px;
+  background-position: left;
+  right: 0;
+  top: -300px;
 }
 
 .info-2 {
@@ -226,6 +231,11 @@ nav {
   .body {
     overflow: hidden;
   }
+
+  .info {
+    display: none;
+  }
+
   .phones {
     position: absolute;
     width: 327px;
@@ -249,10 +259,22 @@ nav {
   }
   .intro {
     position: absolute;
-    right: -800px;
-    top: -180px;
     z-index: 0;
   }
+
+  .intro_intro::before {
+    content: '';
+    background-image: url('./images/bg-intro-desktop.svg');
+    background-size: no-repeat;
+    position: absolute;
+    z-index: 0;
+    height: 300px;
+    width: 400px;
+    background-position: left;
+    top: 0px;
+    right: 0px;
+  }
+  
   .info-2 {
     margin-left: 60px;
   }
@@ -280,6 +302,7 @@ nav {
 
   .container-fluid {
     padding: 0;
+    text-align: center;
   }
   .container h2 {
     text-align: center;
@@ -300,20 +323,34 @@ nav {
     text-align: center;
     padding: 0;
     margin: 0;
+    padding-bottom: 15px;
+  }
+
+  .third-page img {
+    margin-bottom: 10px;
+    width: 250px;
   }
   .third-page h1 {
     line-height: 1em;
-    text-align: center;
     white-space: nowrap;
+    padding-left: 0px;
+   
   }
   .third-page .container {
     width: 250px;
-    margin-left: 40px;
-    margin-right: auto;
+    margin: auto;
   }
   .info-2 {
     display: hidden;
   }
+
+  footer img {
+    margin-top: 30px;
+  }
+
+#info_3 {
+margin-left: 70%;
+}
 }
 
 /*Ipad*/
